@@ -1,6 +1,5 @@
 using NamedTrajectoryPlots
 using Test
+using TestItemRunner
 
-@testset "NamedTrajectoryPlots.jl" begin
-    # Write your tests here.
-end
+@run_package_tests
