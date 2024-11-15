@@ -1,0 +1,13 @@
+name = "NamedTrajectoryPlots"
+uuid = "69943a3a-315e-4bd4-ac4e-ba6985acd462"
+authors = ["Aaron Trowbridge <aaron.j.trowbridge@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
